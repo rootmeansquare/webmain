@@ -153,14 +153,20 @@ body {
     },
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 700px; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
 @media (min-width: 992px) {
-  .masthead,
+  .masthead,  
   .mastfoot,
-  .cover-container {
-    width: 100%;
+  /*.cover-container {
+    width: 700px;
+  }*/
+}
+
+@media (min-width: 992px) {
+  .cover-container{
+    width: 700px;
   }
 }
