@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-app.use('/',express.static(__dirname+"../frontend"));
+app.use('/',express.static(__dirname+"../frontend/index.htmk"));
 
 app.use('/resume',express.static('../frontend/resume.html'));
 app.use('/resumepdf',express.static(__dirname+'../auxFiles/resume.pdf'));
